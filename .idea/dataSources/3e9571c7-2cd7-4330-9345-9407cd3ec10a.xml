@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="hibernate.cfg.xml/Hibernate">
-  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.0">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.1">
     <root id="1"/>
     <database id="2" parent="1" name="postgres">
       <ObjectId>12401</ObjectId>
@@ -9,7 +9,7 @@
     </database>
     <schema id="3" parent="2" name="public">
       <ObjectId>2200</ObjectId>
-      <IntrospectionTimestamp>2017-03-29.17:53:24.996</IntrospectionTimestamp>
+      <IntrospectionTimestamp>2017-04-25.00:39:56.762</IntrospectionTimestamp>
       <IntrospectionStateNumber>706</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>

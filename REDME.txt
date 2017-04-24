@@ -1,13 +1,12 @@
-Chaque DAO possede une interface et les annotations sur les entités ne sont pas utilisés ( unique par reflexivité pour remplir les champs)
+Hibernate + Maven tutorial with all CRUD operations
+
+   github repo : https://github.com/dalphaaabdourahamane/Pomme
+
+Regarder dans Le package SQLDATA pour voir le code source et les lignes crées lors du projet et le digramme des classes et leurs liens
+Utilisation des annotations Hibernate 5.2.
 
 Relation bidirectionnelle entre Ville et BureauVote
 
-Toutes les stransactions on un mode EAGER
-
-Electeur et ville en mode LAZY
-
 Le MAIN est dans Main2 TEST
 
-A noter que les objects ne sont recuperés en base que si ils ne sont pas en memoire
 
-La creation est effectuer UNIQUEMENT si l'object n'hesite pas en bas dans le cas contraire il est juste renvoyé
